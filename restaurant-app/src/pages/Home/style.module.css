@@ -1,6 +1,49 @@
-.header{
-    font-size: 100px;
+.header {
+  font-size: 100px;
 }
-.home{
-    background-color:#fff5ec;
+.home {
+  background-color: #fff5ec;
+}
+.sidebackground {
+  background-image: linear-gradient(90deg, #fff5ec 75%, #35cd8c 25%);
+  margin-bottom: 80px;
+}
+.foodItem {
+  color: #2e266f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  padding-left: 20px;
+}
+.rectangle {
+  width: 25px;
+  height: 140px;
+  background: #35cd8c;
+}
+
+.foodItem2 {
+  color: #707070;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.cardtitle {
+  position: absolute;
+  background: #35cd8c;
+  opacity: 0.7;
+  border-radius: 0px 0px 20px 20px;
+  left: 0;
+  width: 100%;
+}
+.more {
+  color: #35cd8c;
+}
+
+@media only screen and (max-width: 992px) {
+  .foodItem {
+    font-size: 24px;
+  }
 }
