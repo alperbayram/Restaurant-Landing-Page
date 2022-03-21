@@ -1,19 +1,18 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import {  Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import style from './style.module.css';
 
 function Navigation() {
   return (
     <div style={{backgroundColor:"#fff5ec"}}>
-      <Container className={style.navbarcolor}>
+      <div style={{backgroundImage: "linear-gradient(90deg, #fff5ec 75%, #35cd8c 25%)"}} className="container-xl">
         <Navbar expand="lg">
-          <Navbar.Brand
+          <span
             href="#home"
-            className="fs-1 fw-bold"
-            style={{ color: '#35cd8c' }}
+            className={style.navlogo}
           >
-            restaurant
-          </Navbar.Brand>
+            expice
+          </span>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             className="border-0"
@@ -41,7 +40,7 @@ function Navigation() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-      </Container>
+      </div>
     </div>
   );
 }

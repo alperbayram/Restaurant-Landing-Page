@@ -1,0 +1,45 @@
+.serviceItem {
+  color: #2e266f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  padding-left: 20px;
+}
+.rectangle {
+  width: 25px;
+  height: 140px;
+  background: #35cd8c;
+}
+
+.serviceItem2 {
+  color: #707070;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.services {
+  background-image: url(../../../public/img/Vector.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tabletitle {
+  color: #2e266f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+
+.tabledesc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #707070;
+}

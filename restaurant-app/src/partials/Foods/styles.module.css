@@ -1,0 +1,66 @@
+.card {
+  background-color: white;
+  /* top-left | top-right | bottom-right | bottom-left */
+  border-radius: 30px;
+  margin: 15px;
+  box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
+}
+
+.foodsheader {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  text-transform: capitalize;
+  color: #2e266f;
+}
+
+.foodstitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #707070;
+  width: 609px;
+  margin: 0px;
+}
+.cardheader {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #2e266f;
+}
+
+.carddesc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #707070;
+  padding-bottom: 15px;
+}
+
+.cardprice {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #35cd8c;
+}
+
+@media only screen and (max-width: 992px) {
+  .foodsheader {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+  }
+  .foodstitle {
+    font-size: 14px;
+    width: 100%;
+    text-align: justify;
+  }
+}

@@ -1,26 +1,29 @@
 import React from 'react';
-import { Card, Col, Container, Image, Row, Form, Stack } from 'react-bootstrap';
+import { Card, Col, Image, Row, Form, Stack } from 'react-bootstrap';
 import Carousels from '../../components/Carousels';
+import Booking from '../../partials/Booking';
+import Foods from '../../partials/Foods';
+import Services from '../../partials/Ourservices';
 import style from './style.module.css';
 
 function Home() {
   return (
     <div>
       <div className={style.home}>
-        <Container>
+        <div className="container-xl">
           <Row className={style.sidebackground}>
             <Col xs={12} md={6}>
-              <Card className="border-0 d-flex align-content-center bg-transparent">
-                <div>
-                  <h1 className={style.header}>Food</h1>
-                  <p>Discover Restaurant and Delicious Food</p>
-                  <Form.Control
-                    size="lg"
-                    type="text"
-                    placeholder="Large text"
-                  />
-                </div>
-              </Card>
+              <Stack gap={3}>
+                <h1 className={style.header}>Food</h1>
+                <p className={style.headertitle}>
+                  Discover Restaurant and Delicious Food
+                </p>
+                <Form.Control
+                  size="lg"
+                  type="text"
+                  placeholder="Search Restaurant, Food"
+                />
+              </Stack>
             </Col>
             <Col xs={12} md={6}>
               <Card className="border-0 text-center bg-transparent">
@@ -30,8 +33,8 @@ function Home() {
               </Card>
             </Col>
           </Row>
-        </Container>
-        <Container>
+        </div>
+        <div className="container-xl">
           <Stack gap={3}>
             <Row>
               <Col xs={12} md={6}>
@@ -54,14 +57,7 @@ function Home() {
                 </span>
               </Col>
             </Row>
-            <Row>
-              <Col></Col>
-              <Col></Col>
-            </Row>
-          </Stack>
-        </Container>
-        <Container className="pt-5 pb-5">
-          <Row>
+            <Row className='pt-5 pb-5'>
             <Col xs={12} md={4}>
               <Card className="border-0 d-flex align-content-center bg-transparent mb-3">
                 <Image
@@ -139,7 +135,10 @@ function Home() {
               </div>
             </Col>
           </Row>
-        </Container>
+          </Stack>
+        </div>
+       <Services></Services>
+       <Foods></Foods>
       </div>
     </div>
   );

@@ -1,0 +1,44 @@
+.booking {
+  height: 1090px;
+  background: #ffedde;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+}
+.bookingheader {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: #2e266f;
+}
+
+.bookcontainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: white;
+  width: 1230px;
+  height: 560px;
+  padding: 0;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 544px;
+  height: 90px;
+  background: #ffffff;
+  box-shadow: 2px 2px 30px 2px #fff5ec;
+}
+
+.bookingimg {
+  left: 0px;
+  top: 0px;
+  padding: 0;
+}

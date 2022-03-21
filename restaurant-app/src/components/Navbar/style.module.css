@@ -1,3 +1,10 @@
-.navbarcolor{
-    background-image: linear-gradient(90deg, #fff5ec 75%, #35cd8c 25%);
+.navbarcolor {
+  background-image: linear-gradient(90deg, #fff5ec 75%, #35cd8c 25%);
+}
+.navlogo {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 108px;
+  text-align: center;
+  color: #35cd8c;
 }
