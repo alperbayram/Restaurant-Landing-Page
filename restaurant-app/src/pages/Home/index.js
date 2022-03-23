@@ -1,7 +1,9 @@
 import React from 'react';
 import { Card, Col, Image, Row, Form, Stack } from 'react-bootstrap';
 import Carousels from '../../components/Carousels';
+import Footer from '../../components/Footer';
 import Booking from '../../partials/Booking';
+import Download from '../../partials/Download';
 import Foods from '../../partials/Foods';
 import Services from '../../partials/Ourservices';
 import style from './style.module.css';
@@ -139,6 +141,8 @@ function Home() {
         </div>
        <Services></Services>
        <Foods></Foods>
+       <Download></Download>
+       <Footer></Footer>
       </div>
     </div>
   );

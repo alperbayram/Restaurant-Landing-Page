@@ -17,14 +17,14 @@ function Navigation() {
             aria-controls="basic-navbar-nav"
             className="border-0"
           />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="col justify-content-center">
               <Nav.Link href="#home">Menu One</Nav.Link>
               <Nav.Link href="#link">Menu Two</Nav.Link>
               <Nav.Link href="#link">Menu Three</Nav.Link>
             </Nav>
             <Nav>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown title="Dropdown" id="basic-nav-dropdown" >
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action

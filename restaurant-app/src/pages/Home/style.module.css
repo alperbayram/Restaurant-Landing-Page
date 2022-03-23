@@ -59,4 +59,9 @@
   .foodItem {
     font-size: 24px;
   }
+  .header {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 225px;
+  }
 }

@@ -1,0 +1,63 @@
+.back {
+  background-color: #ffedde;
+}
+.rectangle {
+  width: 25px;
+  height: 140px;
+  background: #35cd8c;
+}
+
+.donwheader {
+  color: #2e266f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  padding-left: 25px;
+  padding-right: 15px;
+}
+
+.downtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #707070;
+  text-align: justify;
+  padding-left: 45px;
+  padding-right: 45px;
+
+}
+
+.btn {
+  width: 178px;
+  height: 50px;
+  background: #000000;
+  border-radius: 10px;
+  color: white;
+  margin: 10px;
+}
+
+.imgphone {
+  top: 40px;
+  left: 40px;
+  width: 405px;
+  height: 875px;
+}
+
+.dwnbtn1 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.dwnbtn2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
