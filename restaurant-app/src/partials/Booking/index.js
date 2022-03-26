@@ -6,16 +6,18 @@ import style from './style.module.css';
 
 function Booking() {
   return (
-    <div className={style.booking}>
+    <div className={style.booking} id='booking'>
       <div className={style.bookcontainer}>
-        <Stack gap={5} className="align-self-center">
-          <div></div>
+        <Stack gap={5} className="align-items-center justify-content-center">
           <span className={style.bookingheader}>advance booking</span>
-          <input
-            type="text"
-            placeholder="Search Restaurant, Food"
-            className={style.search}
-          />
+          <form >
+            <input
+              type="text"
+              placeholder="Search Restaurant, Food"
+              className={style.search}
+            />
+            <button className={style.btn}>Go</button>
+          </form>
           <div>
             <Row>
               <Col>
@@ -31,7 +33,9 @@ function Booking() {
                     <path d="M10 0H0L5.2 7L10 0Z" fill="#35CD8C" />
                   </svg>
                 </span>
-                <p><Calendar></Calendar></p>
+                <p>
+                  <Calendar></Calendar>
+                </p>
               </Col>
               <Col>
                 <span>
@@ -46,7 +50,9 @@ function Booking() {
                     <path d="M10 0H0L5.2 7L10 0Z" fill="#35CD8C" />
                   </svg>
                 </span>
-                <p><Time></Time></p>
+                <p>
+                  <Time></Time>
+                </p>
               </Col>
               <Col>
                 <span>
@@ -66,9 +72,7 @@ function Booking() {
             </Row>
           </div>
         </Stack>
-
       </div>
-      
     </div>
   );
 }

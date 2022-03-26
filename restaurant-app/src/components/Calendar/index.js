@@ -6,7 +6,7 @@ import "react-datepicker/dist/react-datepicker.css";
 function Calendar() {
   const [startDate, setStartDate] = useState(new Date());
   const ExampleCustomInput = forwardRef(({ value, onClick }, ref) => (
-    <button className="example-custom-input" onClick={onClick} ref={ref}>
+    <button className="border-0 bg-white" onClick={onClick} ref={ref}>
       {value}
     </button>
   ));

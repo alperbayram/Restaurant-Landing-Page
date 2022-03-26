@@ -3,7 +3,7 @@ import { Col, Form, Row, Stack } from 'react-bootstrap';
 import style from './style.module.css';
 function Footer() {
   return (
-    <div>
+    <div className={style.backfooter}>
       <div className="container-xl pt-5">
         <Stack className="text-center" gap={5}>
           <div>

@@ -3,11 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
-
+import "swiper/css/navigation";
 import './style.css';
 // import required modules
-import { Pagination } from "swiper";
+import { Navigation } from "swiper";
 import { Image } from 'react-bootstrap';
 
 const images = [
@@ -25,14 +24,19 @@ const images = [
 ];
 
 export default function Carousels() {
+  const navigation = {
+    clickable: true,
+    renderBullet: function ( className) {
+      return '<span class="' + className + '">'  + "</span>";
+    },
+  };
+
   return (
     <>
       <Swiper
         spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
+        navigation={navigation}
+        modules={[Navigation]}
         className="mySwiper"
       >
         {images.map((image) => (
@@ -40,7 +44,7 @@ export default function Carousels() {
             <Image
               src={image.href}
               alt="food"
-              className="img-thumbnail border-0 bg-transparent"
+              className="img-fluid bg-transparent"
             />
           </SwiperSlide>
         ))}

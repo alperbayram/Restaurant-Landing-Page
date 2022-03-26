@@ -4,8 +4,19 @@
 .navlogo {
   font-weight: 700;
   font-size: 72px;
-  line-height: 108px;
+  line-height: 104px;
   text-align: center;
   color: #35cd8c;
+  align-items: center;
+  justify-content: center;
 }
 
+.link {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2e266f;
+}
