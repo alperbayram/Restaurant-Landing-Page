@@ -51,7 +51,23 @@
   text-transform: capitalize;
   color: #707070;
 }
+.servicesback {
+  background-color: #ffedde;
+  width: 462px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.servicehead {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #2e266f;
+  margin: 10px;
+}
 @media only screen and (max-width: 992px) {
   .servicesimg {
     width: 462px;

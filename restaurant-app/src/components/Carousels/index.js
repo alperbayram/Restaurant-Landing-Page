@@ -2,11 +2,11 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/navigation';
 import './style.css';
 // import required modules
-import { Navigation } from "swiper";
+import { Autoplay, Navigation } from 'swiper';
 import { Image } from 'react-bootstrap';
 
 const images = [
@@ -26,8 +26,8 @@ const images = [
 export default function Carousels() {
   const navigation = {
     clickable: true,
-    renderBullet: function ( className) {
-      return '<span class="' + className + '">'  + "</span>";
+    renderBullet: function (className) {
+      return '<span class="' + className + '">' + '</span>';
     },
   };
 
@@ -35,8 +35,12 @@ export default function Carousels() {
     <>
       <Swiper
         spaceBetween={30}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         navigation={navigation}
-        modules={[Navigation]}
+        modules={[Autoplay, Navigation]}
         className="mySwiper"
       >
         {images.map((image) => (

@@ -103,7 +103,7 @@ function FoodItem() {
             <Col
               xs={12}
               md={4}
-              className="d-flex justify-content-center align-items-center"
+              className="d-flex justify-content-center align-items-center mt-5"
             >
               <div className="pb-2 pt-2">
                 <div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Image, Row, Stack } from 'react-bootstrap';
+import { Col, Row, Stack } from 'react-bootstrap';
 import Calendar from '../../components/Calendar';
 import Time from '../../components/Time';
 import style from './style.module.css';
@@ -13,7 +13,7 @@ function Booking() {
           <form className={style.bookingform}>
             <input
               type="text"
-              placeholder="Search Restaurant, Food"
+              placeholder="Search Restaurant"
             />
             <button className={style.bookingbtn}>Go</button>
           </form>

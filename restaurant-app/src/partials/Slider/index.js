@@ -18,7 +18,7 @@ function Slider() {
                 <form>
                   <input type="text" placeholder="Search Restaurant, Food" />
                   <button className={style.btnsearch}>
-                    <span>Go</span>
+                    <span className={style.go}>Go</span>
                   </button>
                 </form>
               </div>
