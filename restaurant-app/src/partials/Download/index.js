@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Col, Row, Image } from 'react-bootstrap';
+import {Col, Row} from 'react-bootstrap';
 import style from './style.module.css';
 function Download() {
   return (
-    <div className={style.back}>
+    <div style={{backgroundColor:"#ffedde"}}>
       <div className="container-xl pt-5 ">
-        <Row className="align-items-center">
+        <Row className={style.back}>
           <Col sm={12} md={6}>
             <div className="d-flex pb-5">
               <span className={style.rectangle}></span>
@@ -19,7 +19,7 @@ function Download() {
                 adipiscing cursus auctor eget sed phasellus senectus. Ut tellus
                 donec vestibulum tristique leo bibendum in a, tincidunt.{' '}
               </p>
-              <span className='align-items-center' sm={12} >
+              <span className="align-items-center" sm={12}>
                 <button className={style.btn}>
                   <div className="d-flex align-items-center">
                     <div>
@@ -44,7 +44,7 @@ function Download() {
                 </button>
                 <button className={style.btn}>
                   <div className="d-flex align-items-center">
-                    <div >
+                    <div>
                       <svg
                         width="28"
                         height="34"
@@ -72,7 +72,7 @@ function Download() {
             </div>
           </Col>
           <Col sm={12} md={6}>
-            <img src="./img/mrl3.png" alt="food" className="img-fluid" />
+          <img src="./img/phones.png" alt="food" className="img-fluid" />
           </Col>
         </Row>
       </div>

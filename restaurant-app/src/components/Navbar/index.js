@@ -23,7 +23,7 @@ function Navigation() {
             <Nav className="col justify-content-center">
               <Nav.Link href="#home" className={style.link}>Menu One</Nav.Link>
               <Nav.Link href="#foodıtem" className={style.link}>Menu Two</Nav.Link>
-              <Nav.Link href="#ourservices" className={style.link}>Menu Three</Nav.Link>
+              <Nav.Link href="#foods" className={style.link}>Menu Three</Nav.Link>
             </Nav>
             <Nav>
               <div className='text-center'>

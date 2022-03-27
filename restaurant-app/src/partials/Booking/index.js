@@ -10,13 +10,12 @@ function Booking() {
       <div className={style.bookcontainer}>
         <Stack gap={5} className="align-items-center justify-content-center">
           <span className={style.bookingheader}>advance booking</span>
-          <form >
+          <form className={style.bookingform}>
             <input
               type="text"
               placeholder="Search Restaurant, Food"
-              className={style.search}
             />
-            <button className={style.btn}>Go</button>
+            <button className={style.bookingbtn}>Go</button>
           </form>
           <div>
             <Row>

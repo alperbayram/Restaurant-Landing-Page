@@ -48,8 +48,8 @@ const foods = [
 
 function Foods() {
   return (
-    <div>
-      <div className="container-xl pt-5 ">
+    <div style={{backgroundColor:"#FFF5EC"}} id="foods">
+      <div className="container-xl pt-5 pb-5">
         <div className="p-5">
           <Stack className="align-items-center">
             <span className={style.foodsheader}>Explore Our Foods</span>
