@@ -45,7 +45,7 @@ export default function Carousels() {
       >
         {images.map((image) => (
           <SwiperSlide>
-            <Image
+            <img
               src={image.href}
               alt="food"
               className="img-fluid bg-transparent"

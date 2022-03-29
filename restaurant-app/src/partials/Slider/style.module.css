@@ -1,5 +1,6 @@
 .home {
   background-color: #fff5ec;
+  height: 924px;
 }
 
 .header {
@@ -69,6 +70,9 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
 }
 .location > span {
   font-style: normal;

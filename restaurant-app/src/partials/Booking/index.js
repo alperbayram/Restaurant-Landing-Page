@@ -19,7 +19,7 @@ function Booking() {
           </form>
           <div>
             <Row>
-              <Col>
+              <Col className='p-0'>
                 <span>
                   Date{' '}
                   <svg
@@ -36,7 +36,7 @@ function Booking() {
                   <Calendar></Calendar>
                 </p>
               </Col>
-              <Col>
+              <Col className='p-0'>
                 <span>
                   Time{' '}
                   <svg
@@ -53,7 +53,7 @@ function Booking() {
                   <Time></Time>
                 </p>
               </Col>
-              <Col>
+              <Col className='p-0'>
                 <span>
                   Guests{' '}
                   <svg

@@ -13,7 +13,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
-  line-height: 62px;
   padding-left: 15px;
 }
 
@@ -81,6 +80,11 @@
     font-size: 150px;
     line-height: 225px;
   }
-  .cardtitle {
+  .foodItem {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
   }
 }

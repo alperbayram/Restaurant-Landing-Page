@@ -26,7 +26,7 @@ function Navigation() {
               <Nav.Link href="#foods" className={style.link}>Menu Three</Nav.Link>
             </Nav>
             <Nav>
-              <div className='text-center'>
+              <div >
                 <svg
                   width="52"
                   height="52"
